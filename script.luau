@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://github.com/nobody-games-2/Broken-Bones-IV-infinite-money-script/blob/main/script.luau"))()
-
 -- infinite money
 
 local updateMoney = filtergc("function", {Name = "UpdateMoney"}, true)
@@ -17,3 +15,5 @@ for _,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Gui.Shop.Body.
         end)
     end
 end
+
+loadstring(game:HttpGet("https://github.com/nobody-games-2/Broken-Bones-IV-infinite-money-script/blob/main/script.luau"))()
